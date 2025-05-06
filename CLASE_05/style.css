@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+@media (max-width: 576px) {
+  main {
+    width: 95%;
+  }
+
+  nav ul {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 85%;
+  }
+  nav ul {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    width: 80%;
+  }
+  nav ul {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 75%;
+  }
+  nav ul {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1400px) {
+  main {
+    max-width: 60%;
+  }
+  nav ul {
+    width: 60%;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #808080;
+}
+
+nav ul li a:hover {
+  color:#d3d3d3;
+}
+
+main {
+  margin: auto;
+}
+
+h1 {
+  font-size: 5vh;
+}
+
+h2 {
+  font-size: 3vh;
+  font-weight: 100;
+}
+
+p {
+  font-size: 2vh;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+p a {
+  color: #0000ff;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+}
