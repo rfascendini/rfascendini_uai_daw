@@ -66,6 +66,73 @@ header {
     padding: 1rem;
 }
 
+.container-fluid {
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#form-suscripcion>.title {
+    font-size: 3rem;
+    background-color: #002b5c;
+    color: #ffcc00;
+    margin-bottom: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+
+button[type="submit"] {
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    background-color: #002b5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcc00;
+}
+
+
+
 /* === Noticias Secundarias === */
 
 .sidebar {
@@ -168,17 +235,27 @@ footer {
     margin-top: 1rem;
 }
 
+.form-layout {
+    grid-template-columns: 1fr;
+    margin: 20px
+}
+
+.form-button {
+    grid-column: span 1;
+    /* Ya que solo hay 1 columna en mobile */
+}
+
 /* === Responsivo: Tablet y Desktop === */
 @media (min-width: 768px) {
 
     .main-nav {
-    background: #ffcc00;
-    color: #002b5c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
+        background: #ffcc00;
+        color: #002b5c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
 
 
     .nav-links {
