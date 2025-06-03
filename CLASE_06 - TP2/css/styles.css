@@ -93,7 +93,7 @@ header {
 }
 
 .form-button {
-    grid-column: span 3;
+    grid-column: span 1;
     display: flex;
     justify-content: center;
 }
@@ -115,12 +115,17 @@ input:focus {
     outline: none;
 }
 
+.input-error {
+    margin-top:3px;
+    color: #ff0000;
+}
 
 button[type="submit"] {
+    font-weight: bold;
     padding: 10px 40px;
     font-size: 1.2rem;
     background-color: #002b5c;
-    color: #fff;
+    color: #ffcc00;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -129,9 +134,8 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ffcc00;
+    color: #002b5c;
 }
-
-
 
 /* === Noticias Secundarias === */
 
@@ -181,7 +185,6 @@ button[type="submit"]:hover {
     color: #ffcc00;
 }
 
-/* === Noticia Principal === */
 
 .content .news-item {
     background: #ffffff;
@@ -242,7 +245,6 @@ footer {
 
 .form-button {
     grid-column: span 1;
-    /* Ya que solo hay 1 columna en mobile */
 }
 
 /* === Responsivo: Tablet y Desktop === */
@@ -278,5 +280,17 @@ footer {
 
     .content {
         flex: 2;
+    }
+
+    .form-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .form-button {
+        grid-column: span 3;
+        display: flex;
+        justify-content: center;
     }
 }
