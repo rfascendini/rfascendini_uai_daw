@@ -24,8 +24,6 @@ La problemática de esta semana consiste en:
 
 > Buscar una noticia actual (en inglés o español) de un diario online, y crear un nuevo documento HTML que reproduzca su contenido semántico y también su estilo visual mediante una hoja de estilos CSS personalizada. La idea es lograr una **apariencia lo más parecida posible** al sitio original.
 
-También deberá agregarse un archivo `README.md` con las **URLs de las noticias originales** utilizadas para que los tutores puedan realizar la comparación correspondiente.
-
 ---
 
 ## 🛠️ Pasos a Realizar
@@ -45,10 +43,7 @@ También deberá agregarse un archivo `README.md` con las **URLs de las noticias
 
 ## 🌐 Noticias replicadas
 
-- [🔗 Noticia original 1](https://ejemplo.com/noticia-original-1)
-- [🔗 Noticia original 2](https://ejemplo.com/noticia-original-2)
-
-> 🔁 Reemplazar los enlaces anteriores con las URLs reales que usaste.
+- [🔗 Noticia original]([https://ejemplo.com/noticia-original-1](https://www.infobae.com/entretenimiento/2025/05/13/la-teoria-que-podria-reescribir-el-final-de-dexter-resurreccion/))
 
 ---
 
