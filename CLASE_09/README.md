@@ -79,7 +79,7 @@ Se aplican validaciones al evento `blur` de cada campo, y se limpian al hacer `f
 - La página fue publicada en GitHub Pages.
 
 🔗 **Ver formulario funcionando:**  
-[Visualización del Proyecto](https://rfascendini.github.io/rfascendini_uai_daw/CLASE_9/))  
+[Visualización del Proyecto](https://rfascendini.github.io/rfascendini_uai_daw/CLASE_9/)
 
 ---
 
