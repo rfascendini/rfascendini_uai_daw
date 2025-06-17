@@ -37,9 +37,9 @@ A continuación se listan las distintas entregas semanales del proyecto, cada un
 
 - 📄 [CLASE 02 – HTML Semántico](./CLASE_02/README.md)
 - 📄 [CLASE 03 – CSS + Replicación visual](./CLASE_03/README.md)
-- 📄 [CLASE 04 – Diseño Responsivo con Media Queries](./CLASE_04/README.md)
+- 📄 [CLASE 04 – Diseño Responsivo con Media Queries](./CLASE_04%20-%20TP1/README.md)
 - 📄 [CLASE 05 – Portada con Flexbox y Mobile First](./CLASE_05/README.md)
-- 📄 [CLASE 06 – Formulario de Suscripción Responsive](./CLASE_06/README.md)
+- 📄 [CLASE 06 – Formulario de Suscripción Responsive](./CLASE_06%20-%20TP2/README.md)
 - 📄 [CLASE 07 – Validaciones con JavaScript](./CLASE_07/README.md)
 - 📄 [CLASE 08 – Título Dinámico y Cartel de Confirmación](./CLASE_08/README.md)
 - 📄 [CLASE 09 – Envío HTTP y Modal de Respuesta](./CLASE_09/README.md)
