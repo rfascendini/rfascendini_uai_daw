@@ -29,42 +29,113 @@
         </ul>
     </nav>
 
-    <main class="content-area">
-        <aside class="sidebar">
-            <h2>Noticias Secundarias</h2>
-            <ul>
-                <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440216_candidato.webp&width=740&height=416"
-                        alt="" srcset=""><a href="#">Riquelme quiso a Gerardo Martino antes que Almirón y ahora vuelve a
-                        ser candidato en Boca</a>
-                </li>
-                <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440219_imago1037504062-1-scaled-e1747751218421.webp&width=740&height=416" alt="" srcset=""><a href="#">Riquelme tiene a Gustavo Quinteros como candidato y él espera el llamado de Boca: “Le
-                        encantaría”</a></li>
-                <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440189_BocaDerrota1.webp&width=740&height=416" alt="" srcset=""><a href="#">Boca sigue sin rumbo: una situación inaguantable</a></li>
-            </ul>
-        </aside>
+    <main>
 
-        <section class="content">
-            <article class="news-item">
-                <img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440278_JRR-8.webp&width=740&height=416"
-                    alt="Imagen Noticia Principal">
-                <h2>Miguel Ángel Russo podría volver a Boca si se va de San Lorenzo: “Es la debilidad de Riquelme”</h2>
-                <p>El Xeneize busca nuevo director técnico y hay un candidato más en la lista.</p>
-                <a href="#">Leer más</a>
-            </article>
-        </section>
+        <div class="content-area">
 
-        <aside class="sidebar">
-            <h2>Publicidad</h2>
-            <div class="ad">PUBLICIDAD 1</div>
-            <div class="ad">PUBLICIDAD 2</div>
-            <div class="ad">PUBLICIDAD 3</div>
-            <div class="ad">PUBLICIDAD 4</div>
-        </aside>
+            <aside class="sidebar">
+                <h2>Noticias Secundarias</h2>
+                <ul>
+                    <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440216_candidato.webp&width=740&height=416"
+                            alt="" srcset=""><a href="#">Riquelme quiso a Gerardo Martino antes que Almirón y ahora
+                            vuelve a
+                            ser candidato en Boca</a>
+                    </li>
+                    <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440219_imago1037504062-1-scaled-e1747751218421.webp&width=740&height=416"
+                            alt="" srcset=""><a href="#">Riquelme tiene a Gustavo Quinteros como candidato y él espera
+                            el llamado de Boca: “Le
+                            encantaría”</a></li>
+                    <li><img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440189_BocaDerrota1.webp&width=740&height=416"
+                            alt="" srcset=""><a href="#">Boca sigue sin rumbo: una situación inaguantable</a></li>
+                </ul>
+            </aside>
+
+            <section class="content">
+                <article class="news-item">
+                    <img src="https://ds-images.bolavip.com/news/image?src=https%3A%2F%2Fimages.planetabj.com%2Fwebp%2Ffull%2FPBJ_20250520_PBJ_440278_JRR-8.webp&width=740&height=416"
+                        alt="Imagen Noticia Principal">
+                    <h2>Miguel Ángel Russo podría volver a Boca si se va de San Lorenzo: “Es la debilidad de Riquelme”
+                    </h2>
+                    <p>El Xeneize busca nuevo director técnico y hay un candidato más en la lista.</p>
+                    <a href="#">Leer más</a>
+                </article>
+            </section>
+
+            <aside class="sidebar">
+                <h2>Publicidad</h2>
+                <div class="ad">PUBLICIDAD 1</div>
+                <div class="ad">PUBLICIDAD 2</div>
+                <div class="ad">PUBLICIDAD 3</div>
+                <div class="ad">PUBLICIDAD 4</div>
+            </aside>
+
+        </div>
+
+        <div class="container-fluid">
+            <form action="" method="post" id="form-suscripcion">
+                <h2 class="title">FORMULARIO DE SUSCRIPCIÓN</h2>
+                <h4 id="saludo-dinamico">HOLA</h4>
+                <div class="form-layout">
+                    <div class="form-group">
+                        <label for="input-nombre">Nombre Completo</label>
+                        <input type="text" id="input-nombre" name="input-nombre">
+                        <span class="input-error" id="input-nombre-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-email">Email</label>
+                        <input type="text" id="input-email" name="input-email">
+                        <span class="input-error" id="input-email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-pass">Contraseña</label>
+                        <input type="password" id="input-pass" name="input-pass">
+                        <span class="input-error" id="input-pass-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-edad">Edad</label>
+                        <input type="number" id="input-edad" name="input-edad">
+                        <span class="input-error" id="input-edad-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-tel">Teléfono</label>
+                        <input type="text" id="input-tel" name="input-tel">
+                        <span class="input-error" id="input-tel-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-dir">Dirección</label>
+                        <input type="text" id="input-dir" name="input-dir">
+                        <span class="input-error" id="input-dir-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-ciudad">Ciudad</label>
+                        <input type="text" id="input-ciudad" name="input-ciudad">
+                        <span class="input-error" id="input-ciudad-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-cp">Código Postal</label>
+                        <input type="text" id="input-cp" name="input-cp">
+                        <span class="input-error" id="input-cp-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-dni">DNI</label>
+                        <input type="number" id="input-dni" name="input-dni">
+                        <span class="input-error" id="input-error-dni"></span>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
     </main>
 
     <footer>
         <p>&copy; 2025 Diario Pasión Xeneize. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="js/formulario.js"></script>
+
 
 </body>
 
