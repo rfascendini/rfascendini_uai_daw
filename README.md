@@ -1,4 +1,4 @@
-# 📰 Diario Digital Interactivo - Proyecto Integrador
+# 📰 REPOSITORIO OFICIAL DE RENZO FASCENDINI - UAI 2025 - DESARROLLO WEB
 
 Este repositorio contiene el desarrollo de un diario online realizado como parte de una serie de trabajos prácticos semanales. A lo largo del proyecto se implementan conceptos fundamentales de desarrollo web, incluyendo **HTML semántico**, **estilos con CSS**, **diseño responsive con Flexbox y media queries**, **validaciones en JavaScript**, y **comunicación con servidores mediante HTTP**, todo siguiendo buenas prácticas con control de versiones en Git y despliegue en GitHub Pages.
 
