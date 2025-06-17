@@ -31,8 +31,6 @@ El código es de uso libre con fines educativos. Las imágenes utilizadas son pr
 
 ## 📁 Estructura del Proyecto
 
-## 📚 Índice de Clases
-
 A continuación se listan las distintas entregas semanales del proyecto, cada una documentada con su propio `README.md`:
 
 - 📄 [CLASE 02 – HTML Semántico](./CLASE_02/README.md)
