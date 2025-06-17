@@ -1,0 +1,296 @@
+/* === Estilos Base: Mobile First === */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #002b5c;
+}
+
+header {
+    background: #002b5c;
+    color: #ffcc00;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 0.3rem;
+}
+
+/* === Navegación === */
+
+.main-nav {
+    background: #ffcc00;
+    color: #002b5c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hamburger {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #002b5c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* === Layout Principal === */
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container-fluid {
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#form-suscripcion>.title {
+    font-size: 3rem;
+    background-color: #002b5c;
+    color: #ffcc00;
+    margin-bottom: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
+
+.input-error {
+    margin-top:3px;
+    color: #ff0000;
+}
+
+button[type="submit"] {
+    font-weight: bold;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    background-color: #002b5c;
+    color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcc00;
+    color: #002b5c;
+}
+
+/* === Noticias Secundarias === */
+
+.sidebar {
+    background: #eaeaea;
+    padding: 1rem;
+    border-left: 4px solid #002b5c;
+}
+
+.sidebar h2 {
+    color: #002b5c;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.sidebar ul li img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.sidebar ul li a {
+    color: #002b5c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+
+.content .news-item {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #002b5c;
+}
+
+.news-item h2 {
+    margin-top: 1rem;
+    color: #002b5c;
+}
+
+.news-item p {
+    margin: 0.5rem 0;
+}
+
+.news-item a {
+    color: #ffcc00;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* === Publicidad === */
+
+.ad {
+    background: #ffcc00;
+    color: #002b5c;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* === Footer === */
+
+footer {
+    background: #002b5c;
+    color: #ffcc00;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.form-layout {
+    grid-template-columns: 1fr;
+    margin: 20px
+}
+
+.form-button {
+    grid-column: span 1;
+}
+
+/* === Responsivo: Tablet y Desktop === */
+@media (min-width: 768px) {
+
+    .main-nav {
+        background: #ffcc00;
+        color: #002b5c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .content-area {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        flex: 1;
+    }
+
+    .content {
+        flex: 2;
+    }
+
+    .form-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .form-button {
+        grid-column: span 3;
+        display: flex;
+        justify-content: center;
+    }
+}
