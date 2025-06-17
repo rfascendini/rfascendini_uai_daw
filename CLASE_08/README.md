@@ -84,7 +84,6 @@ El formulario debe incluir los siguientes campos:
 ## 🔗 Visualización del Formulario
 
 - 📄 [Ver página en GitHub Pages](https://rfascendini.github.io/rfascendini_uai_daw/CLASE_08/)
-  > Reemplazá este enlace con el tuyo real.
 
 ---
 
