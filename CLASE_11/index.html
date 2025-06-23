@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RICK&MORTY API</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Buscador de Personajes de Rick & Morty</h1>
+        </header>
+
+        <main>
+            <section class="controles">
+                <form id="form-filtros">
+                    <!-- Filtros arriba -->
+                    <div class="filtros-superior">
+                        <input
+                            type="text"
+                            id="filtro-nombre"
+                            placeholder="Nombre"
+                        />
+                        <select id="filtro-estado">
+                            <option value="">Todos los estados</option>
+                            <option value="alive">Alive</option>
+                            <option value="dead">Dead</option>
+                            <option value="unknown">Unknown</option>
+                        </select>
+                        <input
+                            type="text"
+                            id="filtro-especie"
+                            placeholder="Especie"
+                        />
+                        <input
+                            type="text"
+                            id="filtro-tipo"
+                            placeholder="Tipo"
+                        />
+                        <select id="filtro-genero">
+                            <option value="">Todos los géneros</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                            <option value="genderless">Genderless</option>
+                            <option value="unknown">Unknown</option>
+                        </select>
+                    </div>
+
+                    <!-- Botones abajo en dos columnas -->
+                    <div class="controles-inferiores">
+                        <button type="button" id="btn-todos">
+                            Mostrar todos
+                        </button>
+                        <button type="submit">Filtrar</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="resultados">
+                <!-- Aquí aparecen las tarjetas -->
+            </section>
+
+            <nav id="paginacion">
+                <button id="ant-pagina">Anterior</button>
+                <span id="info-pagina"></span>
+                <button id="sig-pagina">Siguiente</button>
+            </nav>
+        </main>
+
+        <footer class="footer">
+            <p>UAI - DESARROLLO Y ARQUITECTURAS WEB • Renzo Fascendini • 2025</p>
+          </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
