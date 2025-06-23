@@ -1,5 +1,7 @@
 # 📤 Trabajo Práctico - Semana 11: TP API REST - RICK & MORTY
 
+---
+
 ## Resultados de Aprendizaje
 
 - **T1-09-37-1-3-3-RA1**  
@@ -11,6 +13,8 @@
   - Compara proyectos de Sistemas Cliente – Servidor  
   - Para establecer diferencias de funcionamiento  
   - Considerando diferentes protocolos y entornos de desarrollo
+
+---
 
 ## Descripción del problema a resolver
 
@@ -27,6 +31,8 @@ La problemática de la semana 10 consiste en crear una página sencilla que real
 - Debe haber un botón para enviar la request con filtros y mostrar los resultados.  
 - Si alguna request falla, debe mostrarse un mensaje de error en pantalla.  
 - Subir todos los cambios a GitHub y compartir la URL de GitHub Pages con el formulario funcionando.
+
+---
 
 ## Pasos a seguir
 
@@ -55,4 +61,11 @@ La problemática de la semana 10 consiste en crear una página sencilla que real
 6. **Despliegue**  
    - Subir todo a la rama principal de GitHub.  
    - En GitHub, activar GitHub Pages desde la rama `main` (carpeta `/`).  
-   - Verificar que la página funcione y compartir la URL final.  
+   - Verificar que la página funcione y compartir la URL final.
+  
+---
+
+## 🔗 Visualización del Proyecto
+
+- 🌐 [Ver formulario funcionando en GitHub Pages](https://rfascendini.github.io/rfascendini_uai_daw/CLASE_11/)
+
