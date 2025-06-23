@@ -57,7 +57,3 @@ Se creó un **modal HTML + CSS** para mostrar el estado del envío:
 
 - 🌐 [Ver formulario funcionando en GitHub Pages](https://rfascendini.github.io/rfascendini_uai_daw/CLASE_10/)
 
----
-
-## 📂 Archivos Modificados
-
