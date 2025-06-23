@@ -42,3 +42,4 @@ A continuación se listan las distintas entregas semanales del proyecto, cada un
 - 📄 [CLASE 08 – Título Dinámico y Cartel de Confirmación](./CLASE_08/README.md)
 - 📄 [CLASE 09 – Envío HTTP y Modal de Respuesta](./CLASE_09/README.md)
 - 📄 [CLASE 10 – LocalStorage y Precarga del Formulario](./CLASE_10/README.md)
+- 📄 [CLASE 11 – TP API REST](./CLASE_11/README.md)
